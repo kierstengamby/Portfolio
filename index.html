@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Kiersten Gamby - Portfolio</title>
@@ -28,25 +31,21 @@
 
     <section class="about-me-resume-section">
         <div class="container">
-            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="homepage">
+                <p id="signature">Kiersten Gamby</p>
+                <p class="degree">MBA</p>
+                <p class="degree">Junior Web Developer</p>
+            </div>
             <div class="row about-me">
-                <div class="col-4 col-md-4 mb-5"><img src="Assets/headshot.jpeg" height="275em" width="400em"></div>
+                <div class="col-4 col-md-4 mb-5"><img id="headshot" src="Assets/headshot.jpeg" alt="headshot" height="275em" width="400em"></div>
                 <div class="col-8 col-md-8 mb-3 justify-content-left">
                     <h1>About Me</h1>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem distinctio vel repellat nam possimus quidem itaque laborum delectus iure illo, sequi nobis inventore reiciendis tenetur rem pariatur culpa illum.</h3>
+                    <h3>Hello and thank you for visiting my portfolio. I am a Junior Web Dev student with Eleven Fifty Academy. Prior to transitioning into coding, I worked in philanthropy, humanitarian aid, private equity, and nonprofit and corporate volunteer management. I became interested changing career paths as I had tinkered around with coding for my own projects over the years and was encouraged friends in the field to pursue it further. I enjoy both the freedom and challenge of coding. I invite you to view my work below and use the contact form or LinkedIn if you would like to connect.</h3>
                 </div>
             </div>
         </div>
     </section>
-        
-        <!-- <div class="container mb-5 d-flex flex-column justify-content-center">
-            <div class="row homeHeader">
-                <div class="col-md-6 d-flex flex-column justify-content-center">
-                    <h5 class="subHeader text-uppercase">Junior Web Developer</h5>
-                    <h1>Bryson Taeza</h1>
-                </div>
-            </div>
-        </div> -->
+
     <section class="project-section">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="container">
@@ -65,8 +64,14 @@
         <!-- Columns are always 50% wide, on mobile and desktop -->
         <div class="container">
             <div class="row contact">
-                <div class="col-6">Skills</div> <!--links: linkedin, email, github, codepen, replit-->
-                    <link href="https://www.linkedin.com/in/kiersten-gamby-50a5aa143/">
+                <div class="col-6">Skills</div>
+                <div class="skills">
+                    <i class="fas fa-code" alt="code logo"></i>
+                    <i class="fab fa-html5" alt="html logo"></i>
+                    <i class="fab fa-css3-alt" alt="css logo"></i>
+                    <i class="fab fa-js-square" alt="js logo"></i>
+                </div>
+                <!--Add logos HTML CSS JS in column-->
                 <div class="col-6">Connect</div> <!--formspree.io-->
                     <form
                     action="https://formspree.io/f/mpzkvjzl"
@@ -91,19 +96,22 @@
         <div class="container">
             <ul class="nav justify-content-center footer">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Email</a>
+                    <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/kiersten-gamby-50a5aa143/">LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Text</a>
+                    <a class="nav-link active" aria-current="page" href="#">GitHub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">LinkedIn</a>
+                    <a class="nav-link active" aria-current="page" href="#">Codepen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Replit</a>
                 </li>
             </ul>
         </div>
     </section>
 
-    
+    <script src="https://kit.fontawesome.com/2582505ad8.js" crossorigin="anonymous"></script>
     <script src="portfolio.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

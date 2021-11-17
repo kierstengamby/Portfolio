@@ -3,6 +3,29 @@ body {
 
 }
 
+#headshot {
+    border-radius: 8%;
+}
+
+.homepage {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#signature {
+    font-size: 100px;
+    letter-spacing: 0.4em;
+    margin-bottom: 1em;
+}
+
+.degree {
+    font-size: 20px;
+    line-height: .5em;
+}
+
 .nav {
     padding: 1em 2em 0 0;
     display: flex;
@@ -10,7 +33,10 @@ body {
 }
 
 .nav-header-section {
-    background-color:
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: black;
 }
 
 .static {
@@ -19,13 +45,13 @@ body {
 }
 
 .about-me-resume-section{
-    background-color:
 }
 
 .about-me {
     height: 100vh;
     display: flex;
     align-items: center;
+    z-index: -1;
 }
 
 .projects {
@@ -43,4 +69,14 @@ a {
     text-align: center;
     text-decoration: none;
     padding: 1.5em 0 0 0;
+}
+
+.footer {
+    height: 8em;
+    font-size: 18px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
 }
