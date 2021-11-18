@@ -1,18 +1,32 @@
+a {
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5em 0 0 0;
+    color: black;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 
+}
+
+li {
+    color: black;
+}
+
+#linked-in-tag {
+    font-weight: bold;
 }
 
 #headshot {
     border-radius: 8%;
 }
 
-.homepage {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#resume {
+    
+}
+
+.resume {
 }
 
 #signature {
@@ -21,9 +35,70 @@ body {
     margin-bottom: 1em;
 }
 
+#skills-connect-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.break {
+
+}
+
+.connect-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+    height: 70vh;
+}
+
 .degree {
     font-size: 20px;
     line-height: .5em;
+}
+
+.footer {
+    height: 8em;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items {
+    padding: 20px;
+}
+
+.header-links {
+    padding: 3px;
+}
+
+.homepage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section {
+    margin: 0 0 15px 0;
+}
+
+.logo {
+    padding: 10px 0 10px 0;
 }
 
 .nav {
@@ -36,22 +111,18 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    color: black;
-}
-
-.static {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    text-transform: uppercase;
 }
 
-.about-me-resume-section{
+.nav-link:hover {
+    font-weight: bold;
 }
 
-.about-me {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    z-index: -1;
+.project-logos:hover {
+    color: rgb(4, 51, 4);
+    font-weight: bold;
 }
 
 .projects {
@@ -61,22 +132,26 @@ body {
     margin: 0 0 0 5em;
 }
 
-.contact {
-    height: 100vh;
+.resume {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -35px;
 }
 
-a {
-    text-align: center;
-    text-decoration: none;
-    padding: 1.5em 0 0 0;
-}
-
-.footer {
-    height: 8em;
-    font-size: 18px;
+#resume:hover {
+    color: rgb(4, 51, 4);
 }
 
 .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10em 0 8em;
+}
+
+.static {
     display: flex;
     flex-direction: column;
 }
