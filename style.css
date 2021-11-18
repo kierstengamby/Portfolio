@@ -7,26 +7,33 @@ a {
 
 body {
     font-family: 'Lato', sans-serif;
-
+    /* background-color: #f0eff2;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png"); */
+    background-color: #fffdfc;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 li {
     color: black;
 }
 
-#linked-in-tag {
+#linkedin-tag {
     font-weight: bold;
+}
+
+#linkedin-tag:hover {
+    color:rgb(6, 50, 87);
+    font-weight: bolder;
 }
 
 #headshot {
     border-radius: 8%;
 }
 
-#resume {
-    
-}
-
-.resume {
+#hp-logo {
+    background-color: white;
+    border: solid black 5px;
+    padding: 2px 2px 2px 2px;
 }
 
 #signature {
@@ -35,19 +42,25 @@ li {
     margin-bottom: 1em;
 }
 
+#red-badge-logo {
+    background-color: white;
+}
+
+#resume:hover {
+    color: rgb(6, 50, 87);
+    font-weight: bolder;
+}
+
 #skills-connect-text {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .about-me {
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-.break {
-
 }
 
 .connect-form {
@@ -81,6 +94,12 @@ li {
     padding: 20px;
 }
 
+.form-wrapper {
+    border: solid rgb(97, 95, 95) 2px;
+    border-style: inset;
+    padding: 20px 20px 20px 20px;
+}
+
 .header-links {
     padding: 3px;
 }
@@ -98,7 +117,7 @@ li {
 }
 
 .logo {
-    padding: 10px 0 10px 0;
+    padding: 14px 0 14px 0;
 }
 
 .nav {
@@ -121,7 +140,7 @@ li {
 }
 
 .project-logos:hover {
-    color: rgb(4, 51, 4);
+    color: rgb(6, 50, 87);
     font-weight: bold;
 }
 
@@ -138,10 +157,6 @@ li {
     font-size: 20px;
     font-weight: bold;
     margin-top: -35px;
-}
-
-#resume:hover {
-    color: rgb(4, 51, 4);
 }
 
 .skills {
