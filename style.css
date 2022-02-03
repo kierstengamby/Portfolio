@@ -24,11 +24,13 @@ li {
 
 #cert1:hover {
     color: rgb(6, 50, 87);
+    font-size: 20px;
     font-weight: bolder;
 }
 
 #cert2:hover {
     color: rgb(6, 50, 87);
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -38,6 +40,7 @@ li {
 
 #linkedin-tag:hover {
     color:rgb(6, 50, 87);
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -63,6 +66,7 @@ li {
 
 #resume:hover {
     color: rgb(6, 50, 87);
+    font-size: 22px;
     font-weight: bolder;
 }
 
